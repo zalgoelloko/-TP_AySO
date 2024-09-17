@@ -1,0 +1,64 @@
+vagrant halt
+vagrant status
+vagrant ssh
+ssh
+halt
+pwd
+ls
+ls -l
+ls -a
+ls -la
+man man
+--help
+ssh-keygen
+cd
+pwd
+ls -la
+cd .ssh
+ls -la
+cat id_rsa.pub
+suspend
+ls -la
+pwd
+cat /etc/os-release
+cd repogit
+git clone vagrant halt
+ssh-keygen
+cat $HOME/.ssh/*.pub
+cd
+mkdir repogit
+cd repogit
+git clone git@github.com:zalgoelloko/TP_AySO.git
+cd TP_AySO/
+pwd
+ls -l
+cat /etc/os-release
+whoami
+echo vagrant=$(whoami) > datos_usuario.txt
+git add .
+git config --global user.email niko_geniall@hotmail.com
+git config --global user.name zalgoelloko
+git commit -m "ADD: agregado 1er ejercicio
+sobre datos_usuarios.txt"
+git status
+grep "model name" /proc/cpuinfo | head -n1
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt
+git add datos_usuario.txt
+git commit -m "feat: Añadiendo información de CPU"
+grep -v "nologin" /etc/passwd | head -n10 | sort -t: -k7 > lista_ordenada
+git add lista
+git add lista_ordenada
+git commit -m "ADD:Listado ordenado"
+echo "tcpdump" > comando_dump_net
+echo "man tcpdump" >> comando_dump_net
+git add comando_dump_net
+git commit -m "ADD: trafico"
+cat <<EOF > README.md
+Alumno: Nicolas Guevara
+División: 116
+Turno: T.M.
+EOF
+
+git add README.md
+git commit -m "docs: Añadiendo mi información"
+history -a
